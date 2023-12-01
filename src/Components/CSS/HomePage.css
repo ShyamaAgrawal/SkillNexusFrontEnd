@@ -1,0 +1,50 @@
+/* .posts{
+    text-align: center;
+} */
+* {
+  padding: 0;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: just make scrollbar invisible */
+}
+.posts {
+  background-color:black;
+  /* background-image: url("/public/Images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center; */
+  /* background: rgba(255, 255, 255, 0.05); */
+  /* background-attachment: fixed; */
+  /* filter: blur(5px); */
+  /* height: 100vh; */
+  /* width: 100vw; */
+  padding: 10px;
+}
+/* .posts::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 0;
+} */
+
+/* .posts::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url("/public/Images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px); 
+  z-index: -1;
+} */
